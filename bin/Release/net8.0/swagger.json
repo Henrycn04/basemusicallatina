@@ -1,0 +1,55 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/MusicalCategories/status": {
+      "get": {
+        "tags": [
+          "MusicalCategories"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/MusicalCategories/hierarchical": {
+      "get": {
+        "tags": [
+          "MusicalCategories"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/MusicalCategories/GetExamples": {
+      "get": {
+        "tags": [
+          "MusicalCategories"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "categorias",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  }
+}

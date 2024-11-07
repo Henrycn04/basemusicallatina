@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaXU3saTR0ezIZhYkjrtqwAAAAACAAAAAAAQZgAAAAEAACAAAAAueNHv/qOqnfy0Lq3/F43dhhZwQFo34iduRkBgbvde1gAAAAAOgAAAAAIAACAAAADH2RTzDvAw1ZuhGx/5pn7bnnja69kqyv5SfMS3nGo1C4AAAAC2rWDopRsaBsCq/XFQ5ifNr7AOP0MdQxcScM055uV1DFGufyhaH6fYZeXgkF6f7HLIP4N2Q5BzPFLITmL5GY7nGPpbpWr/5vCevyzOZGiDCDEHJ7ZytmX69q5PkdCbc0iYMPqMDJZzD6698QVaYivwO/lzi+Id8QzYyy+T0WRA30AAAAAbg6Yc3EKcrrRlWmSQIhdTl1oIy5gMPc3Td0Xx5qhjvU/EHgB/DaVNX1W9YUoYHCWsaHDuJvKRvMfj7tTdk5Y2</EncryptedPassword>
+    <History>True|2024-11-07T21:50:24.6208394Z;False|2024-11-07T15:49:47.2931193-06:00;True|2024-11-07T15:39:14.8333500-06:00;True|2024-11-07T12:12:21.6796078-06:00;True|2024-11-07T11:27:06.9994518-06:00;True|2024-11-07T03:28:29.7696454-06:00;True|2024-11-07T03:18:59.2193414-06:00;True|2024-11-07T03:14:23.4104383-06:00;True|2024-11-07T02:27:14.1194487-06:00;True|2024-11-07T02:25:55.0485263-06:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="CompanyDataContext">
+      <Value>Data Source=basemusicallatina.database.windows.net,1433%3bInitial Catalog=basemusicallatina%3bUser ID=basemusicallatina%40basemusicallatina%3bPassword=Henry!1304</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
